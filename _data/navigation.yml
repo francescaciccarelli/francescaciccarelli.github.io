@@ -12,7 +12,13 @@ main:
     url: /publications/
 
 #  - title: "Talks"
-#    url: /talks/    
+#    url: /talks/ 
+
+   - title: "Academic Service"
+    url: /academic-service/
+
+  - title: "Awards"
+    url: /awards/
 
   - title: "Teaching"
     url: /teaching/    
@@ -22,12 +28,6 @@ main:
         
 #  - title: "Blog Posts"
 #    url: /year-archive/
-
-  - title: "Academic Service"
-    url: /academic-service/
-
-  - title: "Awards"
-    url: /awards/
     
   - title: "CV"
     url: /cv/
