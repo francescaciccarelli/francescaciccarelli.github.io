@@ -6,31 +6,46 @@ author_profile: true
 ---
 
 <style>
-.wordwrap a {
-  color: #2E7D5B !important;
+.page__content {
+  font-size: 0.88em;
+  line-height: 1.65;
 }
 
-.wordwrap a:hover {
-  color: #205C42 !important;
+.page__title {
+  color: #205C42;
+  font-size: 1.35em;
+  font-weight: 700;
+  padding-bottom: 14px;
+  margin-bottom: 24px;
+  border-bottom: 1px solid #d1d5db;
+}
+
+.page__content h2 {
+  color: #205C42;
+  font-size: 1.2em;
+  margin-top: 1.8em;
+  margin-bottom: 0.6em;
+}
+
+.page__content hr {
+  border: 0;
+  border-top: 1px solid #e5e7eb;
+  margin-bottom: 20px;
 }
 </style>
 
-{% if site.author.googlescholar %}
-  <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
-{% endif %}
-
 {% include base_path %}
 
-<!-- New style rendering if publication categories are defined -->
 {% if site.publication_category %}
-  {% for category in site.publication_category  %}
+  {% for category in site.publication_category %}
     {% assign title_shown = false %}
     {% for post in site.publications reversed %}
       {% if post.category != category[0] %}
         {% continue %}
       {% endif %}
       {% unless title_shown %}
-        <h2>{{ category[1].title }}</h2><hr />
+        <h2>{{ category[1].title }}</h2>
+        <hr />
         {% assign title_shown = true %}
       {% endunless %}
       {% include publication-card.html %}
@@ -41,6 +56,3 @@ author_profile: true
     {% include publication-card.html %}
   {% endfor %}
 {% endif %}
-
-
-
