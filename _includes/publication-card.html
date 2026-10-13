@@ -5,9 +5,9 @@
   </h3>
 
   {% if post.authors %}
-    <div class="publication-card__authors">
-      {{ post.authors }}
-    </div>
+  <div class="publication-card__authors">
+    {{ post.authors | replace: "Francesca Ciccarelli", "<strong>Francesca Ciccarelli</strong>" }}
+  </div>
   {% endif %}
 
   <div class="publication-card__venue">
