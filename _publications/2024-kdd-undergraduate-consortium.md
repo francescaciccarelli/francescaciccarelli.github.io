@@ -1,7 +1,7 @@
 ---
 title: "Towards a Novel Visual Evaluation of Algorithmic Bias: Insights on the Italian Academic System"
 collection: publications
-category: conferences
+category: posters
 permalink: /publication/2024-kdd-undergraduate-consortium
 excerpt: 'A visual approach to evaluating algorithmic bias, with an application to the Italian academic system.'
 date: 2024-08-01
