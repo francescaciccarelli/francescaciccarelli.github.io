@@ -92,6 +92,8 @@ publication_category:
     title: 'Conference Papers'
   posters:
     title: 'Posters'
+  workshops:
+    title: 'Workshop & Editorial Contributions'
 
 # Site Settings
 teaser                   :  # filename of teaser fallback teaser image placed in /images/ for social media previews
