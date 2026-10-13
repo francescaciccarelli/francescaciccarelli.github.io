@@ -1,12 +1,82 @@
----
-layout: archive
-title: "Teaching"
-permalink: /teaching/
-author_profile: true
----
+<style>
+.page__content {
+  font-size: 0.88em;
+  line-height: 1.65;
+}
 
-{% include base_path %}
+.page__title {
+  color: #205C42;
+  font-size: 1.35em;
+  font-weight: 700;
+  padding-bottom: 14px;
+  margin-bottom: 24px;
+  border-bottom: 1px solid #d1d5db;
+}
 
-{% for post in site.teaching reversed %}
-  {% include archive-single.html %}
-{% endfor %}
+.teaching-intro {
+  margin-bottom: 24px;
+}
+
+.teaching-card {
+  border: 1px solid #d1d5db;
+  border-left: 4px solid #2E7D5B;
+  border-radius: 7px;
+  background: #fafafa;
+  padding: 14px 18px;
+  margin: 18px 0;
+}
+
+.teaching-card h3 {
+  font-size: 1em;
+  margin: 0 0 6px;
+  line-height: 1.4;
+}
+
+.teaching-course {
+  color: #2E7D5B;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+.teaching-hours {
+  color: #666;
+  margin-bottom: 8px;
+}
+
+.teaching-card p {
+  margin: 0;
+  line-height: 1.5;
+}
+</style>
+
+<p class="teaching-intro">
+Laboratory teaching activities for the Master's Degree
+in Applied Data Science at the University of L'Aquila.
+</p>
+
+<div class="teaching-card">
+  <h3>Frequent Itemset Mining Laboratory</h3>
+  <div class="teaching-course">Data Mining</div>
+  <div class="teaching-hours">
+    2 hours · 1 laboratory session
+  </div>
+  <p>
+    Designed and delivered a hands-on laboratory on
+    frequent itemset mining algorithms, including
+    Naive, Apriori, and PCY, with a focus on
+    scalability and computational efficiency.
+  </p>
+</div>
+
+<div class="teaching-card">
+  <h3>Graph Analysis Laboratory with NetworkX</h3>
+  <div class="teaching-course">Networks</div>
+  <div class="teaching-hours">
+    4 hours · 2 laboratory sessions
+  </div>
+  <p>
+    Designed and delivered two practical sessions on
+    graph analysis using NetworkX, guiding students
+    through graph concepts and Python-based exercises.
+  </p>
+</div>
