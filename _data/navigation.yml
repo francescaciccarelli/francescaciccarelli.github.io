@@ -14,7 +14,7 @@ main:
 #  - title: "Talks"
 #    url: /talks/ 
 
-   - title: "Academic Service"
+  - title: "Academic Service"
     url: /academic-service/
 
   - title: "Awards"
