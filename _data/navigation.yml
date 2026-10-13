@@ -25,6 +25,9 @@ main:
 
   - title: "Academic Service"
     url: /academic-service/
+
+  - title: "Awards"
+    url: /awards/
     
   - title: "CV"
     url: /cv/
