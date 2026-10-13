@@ -5,6 +5,7 @@ category: posters
 permalink: /publication/2024-kdd-undergraduate-consortium
 excerpt: 'A visual approach to evaluating algorithmic bias, with an application to the Italian academic system.'
 date: 2024-08-01
+authors: "Francesca Ciccarelli, Andrea D'Angelo, Giovanni Stilo"
 venue: 'ACM SIGKDD 2024 Undergraduate Consortium'
 paperurl: 'https://kdd.org/kdd2024/wp-content/uploads/2024/08/08-KDD-UC-Ciccarelli.pdf'
 citation: 'F. Ciccarelli, A. D’Angelo, and G. Stilo. (2024). &quot;Towards a Novel Visual Evaluation of Algorithmic Bias: Insights on the Italian Academic System.&quot; <i>ACM SIGKDD 2024 Undergraduate Consortium</i>.'
