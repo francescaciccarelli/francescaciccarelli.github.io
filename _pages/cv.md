@@ -1,62 +1,177 @@
+
 ---
 layout: archive
-title: "CV"
+title: "Curriculum Vitae"
 permalink: /cv/
 author_profile: true
-redirect_from:
-  - /resume
 ---
 
-{% include base_path %}
+<style>
+.page__content {
+  font-size: 0.88em;
+  line-height: 1.65;
+}
 
-Education
-======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+.page__title {
+  color: #205C42;
+  font-size: 1.35em;
+  padding-bottom: 14px;
+  margin-bottom: 24px;
+  border-bottom: 1px solid #d1d5db;
+}
 
-Work experience
-======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+.cv-intro {
+  margin-bottom: 20px;
+}
 
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+.cv-download {
+  display: inline-block;
+  padding: 10px 18px;
+  background: #2E7D5B;
+  color: #fff !important;
+  border-radius: 6px;
+  text-decoration: none !important;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
 
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-  
-Skills
-======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+.cv-download:hover {
+  background: #205C42;
+}
 
-Publications
-======
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Talks
-======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
+.cv-section {
+  margin-top: 28px;
+}
+
+.cv-section h2 {
+  color: #205C42;
+  font-size: 1.2em;
+  margin-bottom: 15px;
+}
+
+.cv-entry {
+  display: flex;
+  gap: 24px;
+  padding: 13px 0;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.cv-year {
+  flex: 0 0 100px;
+  color: #2E7D5B;
+  font-weight: 700;
+}
+
+.cv-details {
+  flex: 1;
+  min-width: 0;
+}
+
+.cv-details strong {
+  display: block;
+  margin-bottom: 4px;
+}
+
+.cv-details p {
+  margin: 0;
+  color: #666;
+}
+
+@media (max-width: 600px) {
+  .cv-entry {
+    gap: 12px;
+  }
+
+  .cv-year {
+    flex-basis: 80px;
+  }
+}
+</style>
+
+<p class="cv-intro">
+An overview of my academic background, research
+experience, and professional activities.
+</p>
+
+<a class="cv-download"
+   href="/files/Francesca_Ciccarelli_CV.pdf"
+   download>
+  Download CV (PDF)
+</a>
+
+<div class="cv-section">
+  <h2>Education</h2>
+
+  <div class="cv-entry">
+    <div class="cv-year">2024–Present</div>
+    <div class="cv-details">
+      <strong>Ph.D. in Information and Communication Technologies</strong>
+      <p>University of L'Aquila, Italy</p>
+    </div>
+  </div>
+
+  <div class="cv-entry">
+    <div class="cv-year">2022–2024</div>
+    <div class="cv-details">
+      <strong>M.Sc. in Applied Data Science</strong>
+      <p>University of L'Aquila, Italy · 110/110 cum laude</p>
+    </div>
+  </div>
+
+  <div class="cv-entry">
+    <div class="cv-year">2014–2022</div>
+    <div class="cv-details">
+      <strong>B.Sc. in Mathematics</strong>
+      <p>University of L'Aquila, Italy</p>
+    </div>
+  </div>
+</div>
+
+<div class="cv-section">
+  <h2>Research Experience</h2>
+
+  <div class="cv-entry">
+    <div class="cv-year">2024–Present</div>
+    <div class="cv-details">
+      <strong>Ph.D. Researcher</strong>
+      <p>University of L'Aquila, Italy</p>
+    </div>
+  </div>
+
+  <div class="cv-entry">
+    <div class="cv-year">2024</div>
+    <div class="cv-details">
+      <strong>Research Intern — Leonardo S.p.A.</strong>
+      <p>Cybersecurity risk indicators and data analysis</p>
+    </div>
+  </div>
+
+  <div class="cv-entry">
+    <div class="cv-year">2023–2024</div>
+    <div class="cv-details">
+      <strong>“Antonio Alfonsi” Research Fellowship</strong>
+      <p>I.B.M.A.I. · AI applications in healthcare</p>
+    </div>
+  </div>
+</div>
+
+<div class="cv-section">
+  <h2>Honours &amp; Awards</h2>
+
+  <div class="cv-entry">
+    <div class="cv-year">2024</div>
+    <div class="cv-details">
+      <strong>KDD 2024 Travel Grant</strong>
+    </div>
+  </div>
+
+  <div class="cv-entry">
+    <div class="cv-year">2023</div>
+    <div class="cv-details">
+      <strong>“Antonio Alfonsi” Fellowship</strong>
+    </div>
+  </div>
+</div>
   {% endfor %}</ul>
   
 Service and leadership
