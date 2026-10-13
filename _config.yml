@@ -26,7 +26,7 @@ author:
   avatar           : "foto.JPG"
   name             : "Francesca Ciccarelli"
   pronouns         : # example: "she/her"  
-  bio              : "Ph.D. Candidate at the University of L'Aquila. Research interests: Machine Unlearning and Trustworthy AI."
+  bio              : "Ph.D. Candidate at the University of L'Aquila. <br><strong>Research interests:</strong> Machine Unlearning and Trustworthy AI."
   location         : "Italy"
   employer         : "University of L'Aquila"
   uri              : # URL
