@@ -11,12 +11,7 @@
   {% endif %}
 
   <div class="publication-card__venue">
-    {% if post.category == 'posters' %}
-      Presented as a poster at
-    {% else %}
-      Published in
-    {% endif %}
-    <em>{{ post.venue }}</em>, {{ post.date | date: "%Y" }}
+    Published in <em>{{ post.venue }}</em>, {{ post.date | date: "%Y" }}
   </div>
 
   {% if post.paperurl or post.slidesurl or post.bibtexurl %}
