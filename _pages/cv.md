@@ -98,19 +98,13 @@ author_profile: true
 }
 </style>
 
-<p class="cv-intro">
-I am a Ph.D. Candidate in Information and Communication
-Technologies at the University of L'Aquila, Italy.
-My research interests focus on Machine Unlearning
-and Trustworthy Artificial Intelligence.
-</p>
-
 <a class="cv-download"
    href="/files/Francesca_Ciccarelli_CV.pdf"
    target="_blank"
    rel="noopener noreferrer">
   Download CV (PDF)
 </a>
+
 
 <div class="cv-section">
   <h2>Education</h2>
@@ -124,21 +118,22 @@ and Trustworthy Artificial Intelligence.
   </div>
 
   <div class="cv-entry">
-    <div class="cv-year">2022 – 2024</div>
+    <div class="cv-year">2024</div>
     <div class="cv-details">
       <strong>M.Sc. in Applied Data Science</strong>
       <p>University of L'Aquila, Italy</p>
-      <p>Final grade: 110/110 cum laude</p>
+      <p>110/110 cum laude</p>
     </div>
   </div>
 
   <div class="cv-entry">
-    <div class="cv-year">2014 – 2022</div>
+    <div class="cv-year">2022</div>
     <div class="cv-details">
       <strong>B.Sc. in Mathematics</strong>
       <p>University of L'Aquila, Italy</p>
     </div>
   </div>
+
 </div>
 
 <div class="cv-section">
